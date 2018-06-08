@@ -1,0 +1,38 @@
+[
+  {
+    "brand": "Samsung",
+    "model_name": "galaxy-s9",
+    "url": "http://www.mysmartprice.com/mobile/samsung-galaxy-s9-msp12867",
+    "new_append": 1
+  },
+  {
+    "brand": "Samsung",
+    "model_name": "galaxy-s9-plus",
+    "url": "http://www.mysmartprice.com/mobile/samsung-galaxy-s9-plus-msp12891",
+    "new_append": 1
+  },
+  {
+    "brand": "Samsung",
+    "model_name": "galaxy-j7-max",
+    "url": "http://www.mysmartprice.com/mobile/samsung-galaxy-j7-max-msp12639",
+    "new_append": 1
+  },
+  {
+    "brand": "Samsung",
+    "model_name": "galaxy-j7-prime",
+    "url": "http://www.mysmartprice.com/mobile/samsung-galaxy-j7-prime-msp11258",
+    "new_append": 1
+  },
+  {
+    "brand": "Samsung",
+    "model_name": "galaxy-s9-256gb",
+    "url": "http://www.mysmartprice.com/mobile/samsung-galaxy-s9-256gb-msp14299",
+    "new_append": 1
+  },
+  {
+    "brand": "Vivo",
+    "model_name": "v7-plus",
+    "url": "http://www.mysmartprice.com/mobile/vivo-v7-plus-msp13231",
+    "new_append": 1
+  }
+]

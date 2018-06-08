@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config>
+    <parse page_type='complaint_list' next_page_type='comment_list'>
+        <list_item name='complaint_abs' itemloader_class='IndiaConsumerForumComplaintLoader' type='xpath' path='//main[@id="main"]/article'>
+            <field name='title' type='xpath' path='.//h2[@class="title"]//text()'></field>
+            <field name='user_name' type='xpath' path='.//ul[@class="meta-info"]/li[1]/a/text()'></field>
+            <field name='date' type='xpath' path='.//ul[@class="meta-info"]/li[2]/text()'></field>
+            <field name='content_comment_num' type='xpath' path='.//ul[@class="meta-info"]/li[3]/a/text()'></field>
+            <field name='content_url' type='xpath' path='.//h2[@class="title"]/a/attribute::href'></field>
+        </list_item>
+    </parse>
+    <parse page_type='comment_list'>
+        <single_item itemloader_class='IndiaConsumerForumComplaintLoader'>
+            <field name='main_body' type='xpath' path='//div[@class="entry-content"]//text()'></field>
+        </single_item>
+        <list_item name='comment' itemloader_class='IndiaConsumerForumComplaintCommentLoader' type='xpath' path='//ol[@class="comment-list"]//article'>
+            <field name='user_name' type='xpath' path='.//cite[@class="fn"]//text()'></field>
+            <field name='time' type='xpath' path='.//div[@class="comment-meta commentmetadata"]//text()'></field>
+            <field name='main_body' type='xpath' path='.//div[@class="comment-content"]//text()'></field>
+        </list_item>
+    </parse>
+</config>

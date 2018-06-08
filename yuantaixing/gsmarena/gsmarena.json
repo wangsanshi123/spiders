@@ -1,0 +1,38 @@
+[
+  {
+    "brand": "vivo",
+    "model_name": "v7",
+    "url": "https://www.gsmarena.com/vivo_v7-8937.php",
+    "new_append": 1
+  },
+  {
+    "brand": "vivo",
+    "model_name": "x20_plus",
+    "url": "https://www.gsmarena.com/vivo_x20_plus-8873.php",
+    "new_append": 1
+  },
+  {
+    "brand": "oppo",
+    "model_name": "A71",
+    "url": "https://www.gsmarena.com/oppo_a71_(2018)-9051.php",
+    "new_append": 1
+  },
+  {
+    "brand": "oppo",
+    "model_name": "R11",
+    "url": "https://www.gsmarena.com/oppo_r11-8644.php",
+    "new_append": 1
+  },
+  {
+    "brand": "oppo",
+    "model_name": "R7 lite",
+    "url": "https://www.gsmarena.com/oppo_r7_lite-7553.php",
+    "new_append": 1
+  },
+  {
+    "brand": "xiaomi",
+    "model_name": "Redmi5",
+    "url": "https://www.gsmarena.com/xiaomi_redmi_5-8768.php",
+    "new_append": 1
+  }
+]

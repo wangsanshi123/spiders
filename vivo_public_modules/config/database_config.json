@@ -1,0 +1,7 @@
+{
+    "host": "s-a2d9538dfdb91244.mongodb.ap-south-1.rds.aliyuncs.com",
+    "port": 3717,
+    "database": "voc-mongodb",
+    "username": "voc-mongodb",
+    "password": "c1b03d633d823aa5328f4e6b6cb1a"
+}

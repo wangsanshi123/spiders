@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<config>
+    <parse page_type='complaint_list' next_page_type='complaint_detail'>
+        <list_item name='complaint_abs' type='xpath' itemloader_class='ConsumerComplaintsComplaint' path='//td[@width="100%"]//table'>
+            <field name='company_title' type='xpath' path='.//h4/a//text()'></field>
+            <field name='user_name' type='xpath' path='.//td[@class="small"]//text()'></field>
+            <field name='date' type='xpath' path='.//td[@class="small"]//text()'></field>
+            <field name='region' type='xpath' path='.//tr[@class="small complaints"]/td//text()'></field>
+            <field name='content_url' type='value' path='https://www.consumercomplaints.in'></field>
+            <field name='content_url' type='xpath' path='.//tr[@class="small complaints"]/td[1]/a/@href'></field>
+        </list_item>
+    </parse>
+    <parse page_type='complaint_detail'>
+        <single_item itemloader_class='ConsumerComplaintsComplaint'>
+            <field name='main_body' type='xpath' path='//td[@class="compl-text"]//text()'></field>
+        </single_item>
+    </parse>
+</config>

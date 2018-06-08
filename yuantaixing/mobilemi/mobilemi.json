@@ -1,0 +1,32 @@
+[
+  {
+    "brand": "xiaomi",
+    "model_name": "mix2",
+    "url": "http://mobile.mi.com/in/mix2/?RNType=product&product_id=mix2",
+    "new_append": 1
+  },
+  {
+    "brand": "xiaomi",
+    "model_name": "redmi-y1",
+    "url": "http://mobile.mi.com/in/redmi-y1/?RNType=product&product_id=redmi-y1",
+    "new_append": 1
+  },
+  {
+    "brand": "xiaomi",
+    "model_name": "redmi4",
+    "url": "http://mobile.mi.com/in/redmi4/?RNType=product&product_id=redmi4",
+    "new_append": 1
+  },
+  {
+    "brand": "xiaomi",
+    "model_name": "redmi4a",
+    "url": "http://mobile.mi.com/in/redmi4a/?RNType=product&product_id=redmi4a",
+    "new_append": 1
+  },
+  {
+    "brand": "xiaomi",
+    "model_name": "mia1",
+    "url": "http://mobile.mi.com/in/mi-a1/?RNType=product&product_id=mi-a1",
+    "new_append": 1
+  }
+]
